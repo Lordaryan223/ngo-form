@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Healthcare Support Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Healthcare Support</h1>
+    <p>Patient / Volunteer Registration</p>
+
+    <form id="supportForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+
+      <select id="role">
+        <option value="Patient">Patient</option>
+        <option value="Volunteer">Volunteer</option>
+      </select>
+
+      <textarea id="message" placeholder="Describe your issue or message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="response" class="response"></p>
+
+    <a href="dashboard.html" class="link">Go to NGO Dashboard →</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
