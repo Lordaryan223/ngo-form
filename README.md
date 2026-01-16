@@ -15,3 +15,5 @@ Simple keyword-based logic to detect issues, assign priority, and suggest next s
 
 Use-case:
 Helps NGOs quickly understand requests and respond to urgent cases faster.
+
+I have deployed it on Versal this is the link- https://ngo-form-self.vercel.app/
